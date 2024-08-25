@@ -20,14 +20,14 @@ function App() {
     <>
     <header className=" fixed top-0 bg-slate-900 shadow-md w-full px-5 py-8">
       <div className=" flex justify-evenly">
-      <h1 className=" uppercase text-center font-black text-4xl text-white">
+      <h1 className=" uppercase text-center font-black text-xl md:text-2xl: lg:text-4xl text-white my-auto">
         Planificador de gastos
       </h1>
       <button 
             type="button"
             className=" bg-blue-600 hover:bg-white w-auto p-2 hover:text-black text-white uppercase font-bold rounded-lg"
             onClick={() => dispatch ({type: 'reset-app'})}> 
-            Resetear App
+            Reiniciar App
         </button>
         </div>
     </header>
